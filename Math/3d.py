@@ -3,23 +3,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# ´´½¨Íø¸ñ×ø±ê
+# åˆ›å»ºç½‘æ ¼åæ ‡
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)
 X, Y = np.meshgrid(x, y)
 
-# ¼ÆËãº¯ÊıÖµ
+# è®¡ç®—å‡½æ•°å€¼
 Z = np.sin(np.sqrt(X**2 + Y**2))
 
-# ´´½¨3DÍ¼ĞÎ
+# åˆ›å»º3Då›¾å½¢
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_surface(X, Y, Z)
 
-# ÉèÖÃ×ø±êÖá±êÇ©
+# è®¾ç½®åæ ‡è½´æ ‡ç­¾
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 
-# ÏÔÊ¾Í¼ĞÎ
+# æ˜¾ç¤ºå›¾å½¢
 plt.show()

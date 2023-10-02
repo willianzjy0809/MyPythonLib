@@ -5,24 +5,24 @@ import numpy as np
 from scipy.integrate import odeint
 from mpl_toolkits.mplot3d import Axes3D
 
-# ÉèÖÃ²ÎÊı
+# è®¾ç½®å‚æ•°
 sigma = 10.0
 beta = 8.0 / 3.0
 rho = 28.0
 
-# ¶¨ÒåÂåÂ××È·½³Ì
+# å®šä¹‰æ´›ä¼¦å…¹æ–¹ç¨‹
 def lorenz(state, t):
     x, y, z = state
     return sigma * (y - x), x * (rho - z) - y, x * y - beta * z
 
-# ÉèÖÃÆğÊ¼µãºÍÊ±¼äµã
+# è®¾ç½®èµ·å§‹ç‚¹å’Œæ—¶é—´ç‚¹
 state0 = [1.0, 1.0, 1.0]
 t = np.arange(0.0, 100.0, 0.01)
 
-# Ê¹ÓÃodeintº¯ÊıÇó½âODE
+# ä½¿ç”¨odeintå‡½æ•°æ±‚è§£ODE
 states = odeint(lorenz, state0, t)
 
-# »æÖÆÂåÂ××ÈÇúÏß
+# ç»˜åˆ¶æ´›ä¼¦å…¹æ›²çº¿
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot(states[:, 0], states[:, 1], states[:, 2])

@@ -2,22 +2,22 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# ¶¨Òåº¯Êı
+# å®šä¹‰å‡½æ•°
 def f(x):
     return x ** (1/4) + x**3 + x**2 + x
 
-# Éú³ÉÊı¾İ
+# ç”Ÿæˆæ•°æ®
 x = np.linspace(0, 20, 100)
 y = f(x)
 
-# ´´½¨Í¼ĞÎ
+# åˆ›å»ºå›¾å½¢
 fig, ax = plt.subplots()
 ax.plot(x, y)
 
-# Ìí¼Ó±êÇ©ºÍ±êÌâ
+# æ·»åŠ æ ‡ç­¾å’Œæ ‡é¢˜
 ax.set_xlabel('x')
 ax.set_ylabel('y')
 ax.set_title('y=x**(1/4) + x**3 + x**2 + x')
 
-# ÏÔÊ¾Í¼ĞÎ
+# æ˜¾ç¤ºå›¾å½¢
 plt.show()

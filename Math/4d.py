@@ -3,28 +3,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# ´´½¨Íø¸ñ×ø±ê
+# åˆ›å»ºç½‘æ ¼åæ ‡
 x = np.linspace(-5, 5, 100)
 y = np.linspace(-5, 5, 100)
 X, Y = np.meshgrid(x, y)
 
-# ¼ÆËãº¯ÊıÖµ
+# è®¡ç®—å‡½æ•°å€¼
 Z = np.sin(np.sqrt(X**2 + Y**2))
 
-# ´´½¨ËÄÎ¬×ø±ê
+# åˆ›å»ºå››ç»´åæ ‡
 w = np.linspace(0, 1, 100)
 W, Z = np.meshgrid(w, Z)
 
-# Ê¹ÓÃÑÕÉ«±íÊ¾µÚËÄÎ¬Êı¾İ
+# ä½¿ç”¨é¢œè‰²è¡¨ç¤ºç¬¬å››ç»´æ•°æ®
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 surf = ax.plot_surface(X, Y, Z, facecolors=plt.cm.viridis(W))
 fig.colorbar(surf)
 
-# ÉèÖÃ×ø±êÖá±êÇ©
+# è®¾ç½®åæ ‡è½´æ ‡ç­¾
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 
-# ÏÔÊ¾Í¼ĞÎ
+# æ˜¾ç¤ºå›¾å½¢
 plt.show()
