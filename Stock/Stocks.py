@@ -1,3 +1,4 @@
+import os
 import tkinter as tk
 import pandas as pd
 from tkinter import ttk
@@ -8,11 +9,21 @@ from datetime import datetime
 root = tk.Tk()
 root.title("股票价格跟踪")
 
+# 获取当前脚本文件的绝对路径
+script_dir = os.path.dirname(__file__)
+
+# 构建 stocks.csv 文件的完整路径
+csv_file_path = os.path.join(script_dir, 'stocks.csv')
+
 # 创建数据保存的数据框，并尝试加载以前保存的数据
 try:
-    data = pd.read_csv("股票数据.csv", dtype=str)  # 将所有数据都转换为字符串
+    data = pd.read_csv(csv_file_path, dtype=str)  # 将所有数据都转换为字符串
 except FileNotFoundError:
     data = pd.DataFrame(columns=["股票", "日期", "价格"], dtype=str)  # 将索引列设置为False
+    # 添加默认的列头行，以避免 EmptyDataError
+    data.loc[0] = ["示例股票", "2023-10-01", "100.00"]
+    # 保存默认数据到 CSV 文件
+    data.to_csv(csv_file_path, index=False)
 
 # 创建标签和文本框，将它们横向排列
 label_stock = tk.Label(root, text="股票名称:")
@@ -57,7 +68,7 @@ def save_data():
     update_table()
 
     # 保存数据到 CSV 文件
-    data.to_csv("股票数据.csv", index=False, header=True)
+    data.to_csv(csv_file_path, index=False, header=True)
 
 # 创建保存按钮，使用grid布局
 save_button = tk.Button(root, text="保存", command=save_data)
@@ -93,11 +104,18 @@ def delete_data():
         
         update_table()
         # 保存更新后的数据到 CSV 文件
-        data.to_csv("股票数据.csv", index=False, header=True)
+        data.to_csv(csv_file_path, index=False, header=True)
 
 # 创建删除按钮，使用grid布局
 delete_button = tk.Button(root, text="删除选中行", command=delete_data)
 delete_button.grid(row=2, column=0, columnspan=7, pady=10)
+
+# 回车键事件处理程序，执行保存操作
+def on_enter_pressed(event):
+    save_data()
+
+# 为股票价格的Entry框绑定"Return"键（Enter键）的事件
+entry_price.bind("<Return>", on_enter_pressed)
 
 # 启动应用程序
 root.mainloop()
