@@ -1,0 +1,102 @@
+1693994364506	geckodriver	INFO	Listening on 127.0.0.1:7343
+1693994367556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7344" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1.ZHO\\AppData\\Local\\Temp\\rust_mozprofileOvkIJZ"
+console.error: Enterprise Policies: 
+  Invalid parameters specified for PopupBlocking.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693994367832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693994368063	Marionette	INFO	Listening on port 7351
+WebDriver BiDi listening on ws://127.0.0.1:7344
+Read port: 7351
+1693994368217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7344/devtools/browser/0ccbdfd6-6e0e-40bd-abfc-dec257de35b4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693994383500	Marionette	INFO	Stopped listening on port 7351
+Dynamically enable window occlusion 1
+1693994528079	geckodriver	INFO	Listening on 127.0.0.1:7438
+1693994535852	geckodriver	INFO	Listening on 127.0.0.1:7443
+1693994538916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7444" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1.ZHO\\AppData\\Local\\Temp\\rust_mozprofileSEOCPQ"
+console.error: Enterprise Policies: 
+  Invalid parameters specified for PopupBlocking.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693994539205	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693994539437	Marionette	INFO	Listening on port 7452
+WebDriver BiDi listening on ws://127.0.0.1:7444
+Read port: 7452
+1693994539588	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7444/devtools/browser/15ce3fd4-e5f3-44ba-a59d-5b0a56169941
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+1693994569768	Marionette	INFO	Stopped listening on port 7452
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/fxmonitor-breaches getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1693996212773	geckodriver	INFO	Listening on 127.0.0.1:8169
+1693996215838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8170" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1.ZHO\\AppData\\Local\\Temp\\rust_mozprofilerzfKXT"
+console.error: Enterprise Policies: 
+  Invalid parameters specified for PopupBlocking.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693996216121	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693996216359	Marionette	INFO	Listening on port 8177
+WebDriver BiDi listening on ws://127.0.0.1:8170
+Read port: 8177
+1693996216524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:8170/devtools/browser/b323cb26-e931-4a1c-a382-020af54a2653
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693996313355	Marionette	INFO	Stopped listening on port 8177
+Dynamically enable window occlusion 1
+1693997810824	geckodriver	INFO	Listening on 127.0.0.1:14900
+1693997813889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\WILLIA~1.ZHO\\AppData\\Local\\Temp\\rust_mozprofilevyRsps"
+console.error: Enterprise Policies: 
+  Invalid parameters specified for PopupBlocking.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693997814178	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693997814426	Marionette	INFO	Listening on port 14919
+WebDriver BiDi listening on ws://127.0.0.1:14901
+Read port: 14919
+1693997814550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:14901/devtools/browser/730b2c15-70bd-4f0a-95a3-7816015a30e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.javlibrary.com."
+JavaScript warning: https://30199.newsaboutsugar.com/v3/a/pop/js/212189, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1693997863120	Marionette	INFO	Stopped listening on port 14919
+Dynamically enable window occlusion 1
