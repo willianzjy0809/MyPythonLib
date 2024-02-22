@@ -2,7 +2,7 @@
 
 import os
 
-folder_path = r'R:\AV\2023年09月'  # 替换为您的文件夹路径
+folder_path = r'Z:\艺术收藏\000'  # 替换为您的文件夹路径
 jpg_files = [os.path.splitext(f)[0] for f in os.listdir(folder_path) if f.lower().endswith('.jpg')]
 
 output_file = 'file_names.txt'

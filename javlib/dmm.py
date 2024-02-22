@@ -336,6 +336,7 @@ def main(number, appoint_url=''):
 
 #main('DV-1562')
 #print(main('mide00139', "https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=mide00139"))
+'''
 print(main('BLK00544', ""))
 print(main('kawd00969', ""))
 print(main('ACHJ00012', "")),
@@ -346,4 +347,12 @@ print(main('CJOD00389', "")),
 print(main('CJOD00410', "")),
 print(main('CLUB00637', "")),
 print(main('DVAJ00607', ""))
-
+'''
+print(main('MIMK00129', "")),
+print(main('MUDR00244', "")),
+print(main('NIMA00015', "")),
+print(main('NIMA00023', "")),
+print(main('STARS00833', "")),
+print(main('URE00061', "")),
+print(main('URE00067', "")),
+print(main('URE00102', ""))
